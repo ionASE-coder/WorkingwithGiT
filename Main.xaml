@@ -103,7 +103,7 @@
     </Assign>
     <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
-        <OutArgument x:TypeArguments="x:String">[BirthDates("Willie Winka")]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[BirthDates("Willie Winker")]</OutArgument>
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">01/08/1987</InArgument>
@@ -174,7 +174,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[String.Format(&quot;The anniversary of {0} is in the future, It will be on a {1}&quot;, currentKey, WeekdayAnniversary)]" />
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Warn" Message="[String.Format(&quot;The anniversary of {0} is in the future, It will be on a {1}&quot;, currentKey, WeekdayAnniversary)]" />
                 </Sequence>
               </If.Else>
             </If>
